@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+
+# Environment variables file (contains secrets)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Generated data and log files
+# These files are created at runtime and should not be versioned.
+*.json
+*.csv
+
+# IDE configuration files
+.idea/
+.vscode/
+

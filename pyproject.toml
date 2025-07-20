@@ -1,0 +1,17 @@
+[project]
+name = "notion-portfolio-update"
+version = "0.1.0"
+description = "A cryptocurrency data processor that integrates with the Notion API to manage and analyze cryptocurrency data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "notion-client",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "pandas",
+]
+
+[dependency-groups]
+dev = [
+    "pytest", # For running tests from test_project.py
+]
